@@ -21,7 +21,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-backend-egg",
+    "start": "egg-bin dev",
     "stop": "egg-scripts stop --title=egg-server-backend-egg",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
