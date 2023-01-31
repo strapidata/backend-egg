@@ -21,7 +21,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "egg-bin dev",
+    "start": "egg-scripts start --title=egg-server-backend-egg",
     "stop": "egg-scripts stop --title=egg-server-backend-egg",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
